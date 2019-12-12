@@ -17,9 +17,8 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-    <None Update="CountIntegerArray.txt">
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </None>
+    <None Update="QuickSort.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="CountIntegerArray.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
