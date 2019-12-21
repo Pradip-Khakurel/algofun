@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using NUnit.Framework;
 
-namespace AlgoFun.Tests
+namespace AlgoFun.Tests.DivideAndConquer
 {
     [TestFixture]
     public class InversionCounterTest

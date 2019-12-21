@@ -17,3 +17,4 @@
 /home/pradip/dotnet/AlgoFun/AlgoFun.Tests/obj/Debug/netcoreapp2.2/AlgoFun.Tests.pdb
 /home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/QuickSort.txt
 /home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/CountIntegerArray.txt
+/home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/kargerMinCut.txt

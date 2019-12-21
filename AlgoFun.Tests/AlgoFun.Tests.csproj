@@ -19,6 +19,7 @@
   <ItemGroup Condition="'$(Configuration)' == 'Debug'">
     <None Update="QuickSort.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="CountIntegerArray.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="kargerMinCut.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

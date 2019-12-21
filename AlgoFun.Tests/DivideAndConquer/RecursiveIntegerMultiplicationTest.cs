@@ -1,7 +1,7 @@
 using System.Numerics;
 using NUnit.Framework;
 
-namespace AlgoFun.Tests
+namespace AlgoFun.Tests.DivideAndConquer
 {
     public class RecursiveIntegerMultiplicationTest
     {
