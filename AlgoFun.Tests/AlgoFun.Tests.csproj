@@ -20,6 +20,10 @@
     <None Update="QuickSort.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="CountIntegerArray.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="kargerMinCut.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="scc.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="dijkstraData.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="djikstrashort.txt" CopyToOutputDirectory="PreserveNewest" />
+      <None Update="dijkstrashort2.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

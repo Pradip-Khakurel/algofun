@@ -18,3 +18,7 @@
 /home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/QuickSort.txt
 /home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/CountIntegerArray.txt
 /home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/kargerMinCut.txt
+/home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/scc.txt
+/home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/dijkstraData.txt
+/home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/djikstrashort.txt
+/home/pradip/dotnet/AlgoFun/AlgoFun.Tests/bin/Debug/netcoreapp2.2/dijkstrashort2.txt

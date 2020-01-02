@@ -3,7 +3,7 @@ using System;
 namespace AlgoFun
 {
     public class InversionCounter
-    {
+    {                                                                                                                                                                                                                                           
         public long Count(int[] array)
         {
             if (array == null || array.Length == 0) return 0;
