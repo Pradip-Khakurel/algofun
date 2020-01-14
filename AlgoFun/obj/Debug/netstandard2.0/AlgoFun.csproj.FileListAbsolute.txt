@@ -1,9 +1,0 @@
-/home/pradip/dotnet/AlgoFun/AlgoFun/bin/Debug/netstandard2.0/AlgoFun.deps.json
-/home/pradip/dotnet/AlgoFun/AlgoFun/bin/Debug/netstandard2.0/AlgoFun.dll
-/home/pradip/dotnet/AlgoFun/AlgoFun/bin/Debug/netstandard2.0/AlgoFun.pdb
-/home/pradip/dotnet/AlgoFun/AlgoFun/obj/Debug/netstandard2.0/AlgoFun.csprojAssemblyReference.cache
-/home/pradip/dotnet/AlgoFun/AlgoFun/obj/Debug/netstandard2.0/AlgoFun.csproj.CoreCompileInputs.cache
-/home/pradip/dotnet/AlgoFun/AlgoFun/obj/Debug/netstandard2.0/AlgoFun.AssemblyInfoInputs.cache
-/home/pradip/dotnet/AlgoFun/AlgoFun/obj/Debug/netstandard2.0/AlgoFun.AssemblyInfo.cs
-/home/pradip/dotnet/AlgoFun/AlgoFun/obj/Debug/netstandard2.0/AlgoFun.dll
-/home/pradip/dotnet/AlgoFun/AlgoFun/obj/Debug/netstandard2.0/AlgoFun.pdb
