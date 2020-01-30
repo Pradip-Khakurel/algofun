@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace AlgoFun.Tests.Heap
 {
     [TestFixture]
-    public class PriorityQueueTest
+    public class TwoSumsTest
     {
         [Test]
         public void TestHeapOne()
