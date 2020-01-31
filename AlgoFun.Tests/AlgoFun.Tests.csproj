@@ -26,6 +26,7 @@
     <None Update="dijkstrashort2.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="2sum.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="jobs.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="prism.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
