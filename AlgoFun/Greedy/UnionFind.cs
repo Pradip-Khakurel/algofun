@@ -20,6 +20,8 @@ public class UnionFind
         }
     }
 
+    public int Count => _childrenOf.Keys.Count;
+
     public void Union(int x, int y) 
     {
         x = Find(x);

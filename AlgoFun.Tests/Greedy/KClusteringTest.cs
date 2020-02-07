@@ -42,7 +42,7 @@ public class KClusteringTest
         }
 
         var dist = new KClustering().Compute(edges, n, 4);
-
+        Assert.That(dist, Is.EqualTo(106));
     }
 
 }
