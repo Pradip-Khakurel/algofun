@@ -28,7 +28,9 @@
     <None Update="jobs.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="prism.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="Clustering1.txt" CopyToOutputDirectory="PreserveNewest" />
-    <None Update="BigClustering.txt" CopyToOutputDirectory="PreserveNewest" />    
+    <None Update="BigClustering.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="huffman.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="mwis.txt" CopyToOutputDirectory="PreserveNewest" />    
   </ItemGroup>
 
 </Project>
