@@ -30,7 +30,9 @@
     <None Update="Clustering1.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="BigClustering.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="huffman.txt" CopyToOutputDirectory="PreserveNewest" />
-    <None Update="mwis.txt" CopyToOutputDirectory="PreserveNewest" />    
+    <None Update="mwis.txt" CopyToOutputDirectory="PreserveNewest" /> 
+    <None Update="knapsack1.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="knapsack2.txt" CopyToOutputDirectory="PreserveNewest" />       
   </ItemGroup>
 
 </Project>
