@@ -9,6 +9,7 @@ public class HuffManCoding
     {
         public Node Left { get; set; }
         public Node right { get; set; }
+                
         public Node()
         {
         }
@@ -31,7 +32,7 @@ public class HuffManCoding
         {
             var first = heap.Top; heap.Pop();
             var second = heap.Top; heap.Pop();
-            var node = new Node() { Left = first.Key,right = second.Key };
+            var node = new Node() { Left = first.Key, right = second.Key };
             heap.Push(node, first.Value+second.Value);
         }
 
