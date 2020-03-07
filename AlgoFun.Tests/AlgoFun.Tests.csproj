@@ -35,7 +35,10 @@
     <None Update="knapsack2.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="g1.txt" CopyToOutputDirectory="PreserveNewest" /> 
     <None Update="g2.txt" CopyToOutputDirectory="PreserveNewest" /> 
-    <None Update="g3.txt" CopyToOutputDirectory="PreserveNewest" />      
+    <None Update="g3.txt" CopyToOutputDirectory="PreserveNewest" /> 
+    <None Update="tsp1.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="tsp2.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="tsp3.txt" CopyToOutputDirectory="PreserveNewest" />        
   </ItemGroup>
 
 </Project>
