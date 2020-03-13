@@ -38,7 +38,8 @@
     <None Update="g3.txt" CopyToOutputDirectory="PreserveNewest" /> 
     <None Update="tsp1.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="tsp2.txt" CopyToOutputDirectory="PreserveNewest" />
-    <None Update="tsp3.txt" CopyToOutputDirectory="PreserveNewest" />        
+    <None Update="tsp3.txt" CopyToOutputDirectory="PreserveNewest" />  
+    <None Update="tsph.txt" CopyToOutputDirectory="PreserveNewest" />      
   </ItemGroup>
 
 </Project>
