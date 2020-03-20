@@ -10,12 +10,15 @@ namespace AlgoFun.Graphs
 
         private Dictionary<int, List<int>> _graph;
         private Dictionary<int, List<int>> _graphRev;
-        private int[] _finishingTimesRev;
+        private Dictionary<int, int> _finishingTimesRev;
+        private Dictionary<int, int> _leaderOf;
         private List<int> _sccs;
-        private bool[] _visited;
+        private HashSet<int> _visited;
 
         private int _n;
         private int _t;
+
+        public IDictionary<int, int> LeaderOf => _leaderOf;
 
         public KosarajuAlgorihtm(Dictionary<int, List<int>> graph, int n)
         {
@@ -24,30 +27,32 @@ namespace AlgoFun.Graphs
 
             _graph = graph;
             _graphRev = GetReverseGraph();
-            _finishingTimesRev = new int[_n];
+            _finishingTimesRev = Enumerable.Range(0, _n).ToDictionary(x => x, _ => -1);
+            _leaderOf = _graph.Keys.ToDictionary(k => k, k => k);
             _sccs = new List<int>();
+            _visited = new HashSet<int>();
         }
 
         public List<int> ComputeSccs()
         {
-            _visited = new bool[_n];
+            _visited.Clear();
 
-            for (int i = _n - 1; i >= 0; i--)
+            foreach(var i in _graphRev.Keys)
             {
-                if (_visited[i]) continue;
+                if (_visited.Contains(i)) continue;
 
                 FirstPassDfs(i);
             }
 
-            _visited = new bool[_n];
+            _visited.Clear();
 
-            for (int i = _n - 1; i >= 0; i--)
+            for (int t = _n - 1; t >= 0; t--)
             {
-                var j = _finishingTimesRev[i];
+                var i = _finishingTimesRev[t];
 
-                if (_visited[j]) continue;
+                if (_visited.Contains(i)) continue;
 
-                _sccs.Add(SecondPassDfs(j));
+                _sccs.Add(SecondPassDfs(i));
             }
 
             _sccs.Sort((a, b) => b.CompareTo(a));
@@ -59,7 +64,7 @@ namespace AlgoFun.Graphs
         {
             var graphRev = new Dictionary<int, List<int>>(_n);
 
-            for (int i = 0; i < _n; i++)
+            foreach(var i in _graph.Keys)
             {
                 if (!_graph.ContainsKey(i)) continue;
 
@@ -82,13 +87,13 @@ namespace AlgoFun.Graphs
 
         private void FirstPassDfs(int i)
         {
-            _visited[i] = true;
+            _visited.Add(i);
 
             var neighboors = _graphRev.ContainsKey(i) ? _graphRev[i] : EMPTY;
 
             foreach (var nei in neighboors)
             {
-                if (_visited[nei]) continue;
+                if (_visited.Contains(nei)) continue;
 
                 FirstPassDfs(nei);
             }
@@ -102,7 +107,8 @@ namespace AlgoFun.Graphs
             var stack = new Stack<int>();
             var count = 0;
 
-            _visited[i] = true;
+            _visited.Add(i);
+            _leaderOf[i] = i;
             stack.Push(i);
 
             while(stack.Any())
@@ -114,8 +120,9 @@ namespace AlgoFun.Graphs
 
                 foreach (var nei in neighboors)
                 {
-                    if(_visited[nei]) continue;
-                    _visited[nei] = true;
+                    if(_visited.Contains(nei)) continue;
+                    _visited.Add(nei);
+                    _leaderOf[nei] = i;
                     stack.Push(nei);
                 }
             }

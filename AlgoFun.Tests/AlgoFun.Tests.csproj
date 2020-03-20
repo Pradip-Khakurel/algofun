@@ -39,7 +39,13 @@
     <None Update="tsp1.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="tsp2.txt" CopyToOutputDirectory="PreserveNewest" />
     <None Update="tsp3.txt" CopyToOutputDirectory="PreserveNewest" />  
-    <None Update="tsph.txt" CopyToOutputDirectory="PreserveNewest" />      
+    <None Update="tsph.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="2sat1.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="2sat2.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="2sat3.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="2sat4.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="2sat5.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="2sat6.txt" CopyToOutputDirectory="PreserveNewest" />       
   </ItemGroup>
 
 </Project>
